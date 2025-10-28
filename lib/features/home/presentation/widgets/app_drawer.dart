@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../debtors/presentation/screens/debtors_screen.dart';
-import '../../../debtors/presentation/screens/add_edit_debtor_screen.dart';
 
 class AppDrawer extends ConsumerWidget {
   const AppDrawer({super.key});

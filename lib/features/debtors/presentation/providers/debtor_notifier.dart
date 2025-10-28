@@ -190,7 +190,6 @@ class DebtorNotifier extends StateNotifier<DebtorState> {
       case DebtorFilter.noDebt:
         return state.debtors.where((d) => !d.hasDebt).toList();
       case DebtorFilter.all:
-      default:
         return state.debtors;
     }
   }
